@@ -8,7 +8,7 @@ import { EditorView } from 'prosemirror-view';
 import { HEADING } from './NodeNames';
 import noop from './noop';
 import toggleHeading from './toggleHeading';
-import { UICommand } from '@modusoperandi/licit-doc-attrs-step';
+import { UICommand } from '@modusoperandi/licit-utils';
 
 class HeadingCommand extends UICommand {
   _level: number;

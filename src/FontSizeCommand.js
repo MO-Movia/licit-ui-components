@@ -1,6 +1,6 @@
 // @flow
 
-import { UICommand } from '@modusoperandi/licit-doc-attrs-step';
+import { UICommand } from '@modusoperandi/licit-utils';
 import applyMark from './applyMark';
 import isTextStyleMarkCommandEnabled from './isTextStyleMarkCommandEnabled';
 import { EditorState, TextSelection } from 'prosemirror-state';

@@ -1,6 +1,6 @@
 // @flow
 
-import { UICommand } from '@modusoperandi/licit-doc-attrs-step';
+import { UICommand } from '@modusoperandi/licit-utils';
 import { AllSelection, TextSelection } from 'prosemirror-state';
 import { BLOCKQUOTE, HEADING, LIST_ITEM, PARAGRAPH } from './NodeNames';
 import { EditorState } from 'prosemirror-state';

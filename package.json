@@ -7,7 +7,7 @@
   "style": "dist/styles.css",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MO-Movia/licit-doc-attrs-step.git"
+    "url": "git+https://github.com/MO-Movia/licit-doc-attrs-step.git#renamed-to-licit-utils"
   },
   "bundleDependencies": [
     "prosemirror-utils"
@@ -23,7 +23,7 @@
     "lint:js": "eslint \"src/**/*.js\"",
     "lint:css": "stylelint \"**/*.css\"",
     "prepare": "npm run build:dist",
-    "test": "jest --coverage --passWithNoTests",
+    "test": "jest --coverage",
     "debug": "node --debug-brk --inspect ./node_modules/.bin/jest -i"
   },
   "devDependencies": {
@@ -80,7 +80,7 @@
     "write-file-webpack-plugin": "^4.5.1"
   },
   "dependencies": {
-    "@modusoperandi/licit-doc-attrs-step": "^0.1.1",
+    "@modusoperandi/licit-utils": "git+https://github.com/MO-Movia/licit-doc-attrs-step.git#renamed-to-licit-utils",
     "browserkeymap": "2.0.2",
     "classnames": "2.2.6",
     "color": "3.1.2",

@@ -1,7 +1,7 @@
 // @flow
 
 import ColorEditor from './ui/ColorEditor';
-import { UICommand } from '@modusoperandi/licit-doc-attrs-step';
+import { UICommand } from '@modusoperandi/licit-utils';
 import applyMark from './applyMark';
 import createPopUp from './ui/createPopUp';
 import findNodesWithSameMark from './findNodesWithSameMark';
