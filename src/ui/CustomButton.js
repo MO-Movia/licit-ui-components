@@ -1,10 +1,10 @@
 // @flow
 
-import './czi-custom-button.css';
-import PointerSurface from './PointerSurface';
 import * as React from 'react';
-import TooltipSurface from './TooltipSurface';
 import cx from 'classnames';
+import './czi-custom-button.css';
+import {PointerSurface} from './PointerSurface';
+import {TooltipSurface} from './TooltipSurface';
 
 import type { PointerSurfaceProps } from './PointerSurface';
 

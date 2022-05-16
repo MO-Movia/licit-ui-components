@@ -1,7 +1,7 @@
 // @flow
 
-import cx from 'classnames';
 import * as React from 'react';
+import cx from 'classnames';
 
 import preventEventDefault from './preventEventDefault';
 
@@ -18,7 +18,7 @@ export type PointerSurfaceProps = {
   value?: any,
 };
 
-class PointerSurface extends React.PureComponent<any, any> {
+export class PointerSurface extends React.PureComponent<any, any> {
   props: PointerSurfaceProps;
 
   _clicked = false;
@@ -138,4 +138,4 @@ class PointerSurface extends React.PureComponent<any, any> {
   };
 }
 
-export default PointerSurface;
+// export default PointerSurface;
